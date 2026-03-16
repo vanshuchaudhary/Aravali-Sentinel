@@ -25,7 +25,7 @@ The engine identifies forest status at specific coordinates. In this example, th
 
 ### **2. 7-Year Ecological Health Trends**
 Tracking the "heartbeat" of the forest. This graph uses direct satellite measurements to visualize how vegetation health has fluctuated over nearly a decade.
-![Temporal Trends](screenshot/Screenshot%20(165).png)
+![Temporal Trends](screenshots/Screenshot%20(165).png)
 
 ### **3. Smart Restoration Strategies**
 The system doesn't just find problems; it suggests solutions. From recommending **Native Dhau** plantation to identifying invasive species, it provides an actionable roadmap for conservation.
