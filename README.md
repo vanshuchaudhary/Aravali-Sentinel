@@ -20,15 +20,18 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ### **1. AI-Powered Monitoring**
 The system identifies forest status at specific coordinates. Below, the AI detects a degraded zone with **92.96% confidence**, highlighting fragmentation risks.
-![AI Analysis](assets/Screenshot_164.jpg)
+![AI Analysis](<img width="1920" height="1080" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/f085771b-1d40-48be-bcf5-8d03dd88c840" />
+)
 
 ### **2. Ecological Health Trends**
 A direct look at the 7-year "heartbeat" of the forest. The graph tracks the Health Index, allowing users to see exactly when degradation occurred.
-![Temporal Trends](assets/Screenshot_165.png)
+![Temporal Trends](<img width="1920" height="1080" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/bf0699d9-14fa-448c-bab9-13f3167de9ed" />
+)
 
 ### **3. Restoration & Actionable Insights**
 Beyond monitoring, the app suggests specific strategies like "Native Dhau plantation" to restore biodiversity corridors.
-![Restoration Strategy](assets/Screenshot_166.jpg)
+![Restoration Strategy](<img width="1920" height="1080" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/71279540-8535-4320-b082-2d675f9e4d92" />
+)
 
 ---
 
