@@ -13,3 +13,6 @@ plotly
 earthengine-api
 geemap
 python-dotenv
+google-auth
+google-auth-oauthlib
+google-auth-httplib2
