@@ -3,16 +3,17 @@
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg)](https://vanshuchaudhary-aravali-sentinel-aravali-app-fmcsqj.streamlit.app/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
-The Aravalli Range is one of the world's oldest mountain ranges, acting as a critical green barrier against the Thar Desert. **AFI** uses Deep Learning (CNN-BiLSTM) and Google Earth Engine to provide real-time ecological health monitoring and risk assessment.
+The Aravalli Range is one of the world's oldest mountain ranges, acting as a critical green barrier against desertification. **AFI** leverages Deep Learning (CNN-BiLSTM) and Google Earth Engine (GEE) to provide real-time ecological health monitoring, trend forecasting, and risk assessment.
 
 ---
 
 ## 🌟 Key Features
-* **🤖 Precision AI Analysis:** Custom-trained neural networks provide site-specific classification with high confidence scores.
-* **📈 7-Year Temporal Tracking:** Direct satellite measurement of forest health trends from 2020 to 2026.
+* **🤖 Precision AI Analysis:** Custom-trained neural networks provide site-specific classification with confidence scores up to **92%+**.
+* **📈 7-Year Temporal Tracking:** Direct satellite measurement of forest health trends (NDVI) from 2020 to 2026.
 * **🗺️ Risk Hotspot Mapping:** Identification of degraded and encroached forest zones using multi-spectral imagery.
-* **🛠️ Restoration Intelligence:** Automated recommendations for native plantation and biodiversity restoration.
+* **🛠️ Restoration Intelligence:** Automated recommendations for native species (like Dhau) and biodiversity recovery.
 
 ---
 
@@ -20,16 +21,33 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ### **1. AI-Powered Monitoring Dashboard**
 The engine identifies forest status at specific coordinates. In this example, the AI detects a degraded zone with high precision, highlighting topsoil erosion and corridor fragmentation risks.
-![AI Analysis](screenshots/Screenshot%20(164).png)
+![AI Analysis](screenshot/Screenshot%20(164).jpg)
 
 ### **2. 7-Year Ecological Health Trends**
 Tracking the "heartbeat" of the forest. This graph uses direct satellite measurements to visualize how vegetation health has fluctuated over nearly a decade.
-![Temporal Trends](screenshots/Screenshot%20(165).png)
+![Temporal Trends](screenshot/Screenshot%20(165).png)
 
 ### **3. Smart Restoration Strategies**
 The system doesn't just find problems; it suggests solutions. From recommending **Native Dhau** plantation to identifying invasive species, it provides an actionable roadmap for conservation.
-![Restoration Strategy](screenshots/Screenshot%20(166).png)
+![Restoration Strategy](screenshot/Screenshot%20(166).jpg)
 
+---
+
+## 🏗️ Project Structure
+```text
+Aravali-Sentinel/
+├── aravali_app.py              # Main Streamlit Application logic
+├── aravali_forest_model_v2.weights.h5 # Deep Learning Weights (Primary)
+├── aravli_classifier_v2.weights.h5    # Secondary Classifier Weights
+├── requirements.txt            # Python Dependencies
+├── screenshot/                 # Project Visuals & Assets
+│   ├── Screenshot (161).jpg
+│   ├── Screenshot (164).jpg
+│   ├── Screenshot (165).png
+│   └── Screenshot (166).jpg
+├── .gitattributes              # Git LFS configuration for large files
+└── README.md                   # Project Documentation
+```
 ---
 
 ## 🧠 Tech Stack
