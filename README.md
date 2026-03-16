@@ -44,7 +44,7 @@ The system doesn't just find problems; it suggests solutions. From recommending 
 ## 🚀 Deployment Status
 The project is fully synchronized via GitHub Desktop. The weights files (`.h5`) are integrated into the root directory for seamless loading on Streamlit Cloud.
 
-![Local Sync Status](assets/Screenshot_161.jpg)
+![Local Sync Status](assets/Screenshot_161.png)
 
 ---
 
