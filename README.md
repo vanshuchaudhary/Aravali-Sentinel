@@ -20,7 +20,7 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ### **1. AI-Powered Monitoring Dashboard**
 The engine identifies forest status at specific coordinates. In this example, the AI detects a degraded zone with high precision, highlighting topsoil erosion and corridor fragmentation risks.
-![AI Analysis](screenshots/Screenshot%20(164).jpg)
+![AI Analysis](screenshots/Screenshot%20(164).png)
 
 ### **2. 7-Year Ecological Health Trends**
 Tracking the "heartbeat" of the forest. This graph uses direct satellite measurements to visualize how vegetation health has fluctuated over nearly a decade.
@@ -28,7 +28,7 @@ Tracking the "heartbeat" of the forest. This graph uses direct satellite measure
 
 ### **3. Smart Restoration Strategies**
 The system doesn't just find problems; it suggests solutions. From recommending **Native Dhau** plantation to identifying invasive species, it provides an actionable roadmap for conservation.
-![Restoration Strategy](screenshots/Screenshot%20(166).jpg)
+![Restoration Strategy](screenshots/Screenshot%20(166).png)
 
 ---
 
