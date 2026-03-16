@@ -10,7 +10,7 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ## 🌟 Key Features
 * **🤖 Precision AI Analysis:** Custom-trained neural networks provide site-specific classification with high confidence scores.
-* **📈 7-Year Temporal Tracking:** Direct satellite measurement of forest health trends from 2018 to 2025.
+* **📈 7-Year Temporal Tracking:** Direct satellite measurement of forest health trends from 2020 to 2026.
 * **🗺️ Risk Hotspot Mapping:** Identification of degraded and encroached forest zones using multi-spectral imagery.
 * **🛠️ Restoration Intelligence:** Automated recommendations for native plantation and biodiversity restoration.
 
