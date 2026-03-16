@@ -18,19 +18,17 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ## 📸 Project Showcase
 
-### **1. AI-Powered Monitoring**
-The system identifies forest status at specific coordinates. Below, the AI detects a degraded zone with **92.96% confidence**, highlighting fragmentation risks.
-![AI Analysis](screenshots/Screenshot (164).png)
+### **1. AI-Powered Monitoring Dashboard**
+The engine identifies forest status at specific coordinates. In this example, the AI detects a degraded zone with high precision, highlighting topsoil erosion and corridor fragmentation risks.
+![AI Analysis](screenshots/Screenshot%20(164).jpg)
 
-### **2. Ecological Health Trends**
-A direct look at the 7-year "heartbeat" of the forest. The graph tracks the Health Index, allowing users to see exactly when degradation occurred.
-![Temporal Trends](<img width="1920" height="1080" alt="Screenshot (165)" src="https://github.com/user-attachments/assets/bf0699d9-14fa-448c-bab9-13f3167de9ed" />
-)
+### **2. 7-Year Ecological Health Trends**
+Tracking the "heartbeat" of the forest. This graph uses direct satellite measurements to visualize how vegetation health has fluctuated over nearly a decade.
+![Temporal Trends](screenshots/Screenshot%20(165).png)
 
-### **3. Restoration & Actionable Insights**
-Beyond monitoring, the app suggests specific strategies like "Native Dhau plantation" to restore biodiversity corridors.
-![Restoration Strategy](<img width="1920" height="1080" alt="Screenshot (166)" src="https://github.com/user-attachments/assets/71279540-8535-4320-b082-2d675f9e4d92" />
-)
+### **3. Smart Restoration Strategies**
+The system doesn't just find problems; it suggests solutions. From recommending **Native Dhau** plantation to identifying invasive species, it provides an actionable roadmap for conservation.
+![Restoration Strategy](screenshots/Screenshot%20(166).jpg)
 
 ---
 
