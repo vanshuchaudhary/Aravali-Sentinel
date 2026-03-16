@@ -10,3 +10,5 @@ streamlit-folium
 geopy
 protobuf==3.20.3
 plotly
+earthengine-api
+geemap
