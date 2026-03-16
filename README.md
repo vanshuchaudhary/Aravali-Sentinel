@@ -20,8 +20,7 @@ The Aravalli Range is one of the world's oldest mountain ranges, acting as a cri
 
 ### **1. AI-Powered Monitoring**
 The system identifies forest status at specific coordinates. Below, the AI detects a degraded zone with **92.96% confidence**, highlighting fragmentation risks.
-![AI Analysis](<img width="1920" height="1080" alt="Screenshot (164)" src="https://github.com/user-attachments/assets/f085771b-1d40-48be-bcf5-8d03dd88c840" />
-)
+![AI Analysis](screenshots/Screenshot (164).png)
 
 ### **2. Ecological Health Trends**
 A direct look at the 7-year "heartbeat" of the forest. The graph tracks the Health Index, allowing users to see exactly when degradation occurred.
