@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_637e68cb553a95b2cee59045e5cb3ed1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_637e68cb553a95b2cee59045e5cb3ed1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_637e68cb553a95b2cee59045e5cb3ed1 = L.map(
+                "map_637e68cb553a95b2cee59045e5cb3ed1",
+                {
+                    center: [28.45, 77.02],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_250294f0ba61e7a49b6374f32a41d414 = L.tileLayer(
+                "https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 20,
+  "maxNativeZoom": 20,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"https://carto.com/attributions\"\u003eCARTO\u003c/a\u003e",
+  "subdomains": "abcd",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_250294f0ba61e7a49b6374f32a41d414.addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+            var circle_marker_6f75830c16dba45be0bec2ff508a3310 = L.circleMarker(
+                [28.3, 76.99],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_f09f9d70fd123e199bbecc854dd0b67a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ac6a9c45620552c1551fa6c948681218 = $(`<div id="html_ac6a9c45620552c1551fa6c948681218" style="width: 100.0%; height: 100.0%;"><b>manesar-south</b><br>Status: Stable Forest<br>Forest Loss Index: -0.051</div>`)[0];
+                popup_f09f9d70fd123e199bbecc854dd0b67a.setContent(html_ac6a9c45620552c1551fa6c948681218);
+            
+        
+
+        circle_marker_6f75830c16dba45be0bec2ff508a3310.bindPopup(popup_f09f9d70fd123e199bbecc854dd0b67a)
+        ;
+
+        
+    
+    
+            var circle_marker_0c01721377ac2241acffcf1bb201c07c = L.circleMarker(
+                [28.35, 76.99],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_ad693f2982d51be4227fb0360f757ee8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_940ae0adbca3ef8a84907d81ec21d18e = $(`<div id="html_940ae0adbca3ef8a84907d81ec21d18e" style="width: 100.0%; height: 100.0%;"><b>manesar-north</b><br>Status: Stable Forest<br>Forest Loss Index: -0.055</div>`)[0];
+                popup_ad693f2982d51be4227fb0360f757ee8.setContent(html_940ae0adbca3ef8a84907d81ec21d18e);
+            
+        
+
+        circle_marker_0c01721377ac2241acffcf1bb201c07c.bindPopup(popup_ad693f2982d51be4227fb0360f757ee8)
+        ;
+
+        
+    
+    
+            var circle_marker_770b04c5d18075ef280bdb257235e8ff = L.circleMarker(
+                [28.22, 77.05],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_3c3ba164f34787c160ce9e3304d6f2fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b6fd22cca7d0fea8793540b157a362c6 = $(`<div id="html_b6fd22cca7d0fea8793540b157a362c6" style="width: 100.0%; height: 100.0%;"><b>sohna-south</b><br>Status: Stable Forest<br>Forest Loss Index: -0.082</div>`)[0];
+                popup_3c3ba164f34787c160ce9e3304d6f2fe.setContent(html_b6fd22cca7d0fea8793540b157a362c6);
+            
+        
+
+        circle_marker_770b04c5d18075ef280bdb257235e8ff.bindPopup(popup_3c3ba164f34787c160ce9e3304d6f2fe)
+        ;
+
+        
+    
+    
+            var circle_marker_34ffb39c10a3193d477b1fa2ceb050ab = L.circleMarker(
+                [28.27, 77.05],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_808085cf2aa30e1a15766c7d720e9744 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09372a29b2dfc3425d4e51c5e86d624b = $(`<div id="html_09372a29b2dfc3425d4e51c5e86d624b" style="width: 100.0%; height: 100.0%;"><b>sohna-north</b><br>Status: Stable Forest<br>Forest Loss Index: -0.047</div>`)[0];
+                popup_808085cf2aa30e1a15766c7d720e9744.setContent(html_09372a29b2dfc3425d4e51c5e86d624b);
+            
+        
+
+        circle_marker_34ffb39c10a3193d477b1fa2ceb050ab.bindPopup(popup_808085cf2aa30e1a15766c7d720e9744)
+        ;
+
+        
+    
+    
+            var circle_marker_bb51b8081be69123aa51bdb00a7208bd = L.circleMarker(
+                [28.35, 77.1731],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_0af07b8981f903b7b878977a4c5b6cd8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_68ec247ccb706963613c1968ffbeef4c = $(`<div id="html_68ec247ccb706963613c1968ffbeef4c" style="width: 100.0%; height: 100.0%;"><b>mangar-south</b><br>Status: Moderate Degradation<br>Forest Loss Index: -0.135</div>`)[0];
+                popup_0af07b8981f903b7b878977a4c5b6cd8.setContent(html_68ec247ccb706963613c1968ffbeef4c);
+            
+        
+
+        circle_marker_bb51b8081be69123aa51bdb00a7208bd.bindPopup(popup_0af07b8981f903b7b878977a4c5b6cd8)
+        ;
+
+        
+    
+    
+            var circle_marker_ca567df1a7140feb23c5377b31c44971 = L.circleMarker(
+                [28.4, 77.1731],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_53915559a1f25b67f11a2558691c1b04 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c855d39e0565c31067bb9f62085fc8b = $(`<div id="html_9c855d39e0565c31067bb9f62085fc8b" style="width: 100.0%; height: 100.0%;"><b>mangar-north</b><br>Status: Moderate Degradation<br>Forest Loss Index: -0.245</div>`)[0];
+                popup_53915559a1f25b67f11a2558691c1b04.setContent(html_9c855d39e0565c31067bb9f62085fc8b);
+            
+        
+
+        circle_marker_ca567df1a7140feb23c5377b31c44971.bindPopup(popup_53915559a1f25b67f11a2558691c1b04)
+        ;
+
+        
+    
+    
+            var circle_marker_68f115e26d3f54616372cf7716a9c383 = L.circleMarker(
+                [28.31, 77.21],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_16f8b4de2dd936246a84ed5c6a3ce96a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_edd2321e414a850030ebe2a25aba03ae = $(`<div id="html_edd2321e414a850030ebe2a25aba03ae" style="width: 100.0%; height: 100.0%;"><b>pali-south</b><br>Status: Moderate Degradation<br>Forest Loss Index: -0.187</div>`)[0];
+                popup_16f8b4de2dd936246a84ed5c6a3ce96a.setContent(html_edd2321e414a850030ebe2a25aba03ae);
+            
+        
+
+        circle_marker_68f115e26d3f54616372cf7716a9c383.bindPopup(popup_16f8b4de2dd936246a84ed5c6a3ce96a)
+        ;
+
+        
+    
+    
+            var circle_marker_ded103f13e0247292de1fee3702c4ee2 = L.circleMarker(
+                [28.36, 77.21],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_fcf10c3113266d8112b75ffe6f90b5d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d972affe6127507eb916d68b735f01c2 = $(`<div id="html_d972affe6127507eb916d68b735f01c2" style="width: 100.0%; height: 100.0%;"><b>pali-north</b><br>Status: Critical Loss (Mining/Degradation)<br>Forest Loss Index: -0.364</div>`)[0];
+                popup_fcf10c3113266d8112b75ffe6f90b5d3.setContent(html_d972affe6127507eb916d68b735f01c2);
+            
+        
+
+        circle_marker_ded103f13e0247292de1fee3702c4ee2.bindPopup(popup_fcf10c3113266d8112b75ffe6f90b5d3)
+        ;
+
+        
+    
+    
+            var circle_marker_9033b57e103cff6540b857e0b24080ce = L.circleMarker(
+                [28.15, 77.01],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_45eca60968b264ca5976cae412a42eb6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83727ebbd202dcd45b4f270ca252dc25 = $(`<div id="html_83727ebbd202dcd45b4f270ca252dc25" style="width: 100.0%; height: 100.0%;"><b>nuh-north</b><br>Status: Critical Loss (Mining/Degradation)<br>Forest Loss Index: -0.366</div>`)[0];
+                popup_45eca60968b264ca5976cae412a42eb6.setContent(html_83727ebbd202dcd45b4f270ca252dc25);
+            
+        
+
+        circle_marker_9033b57e103cff6540b857e0b24080ce.bindPopup(popup_45eca60968b264ca5976cae412a42eb6)
+        ;
+
+        
+    
+    
+            var circle_marker_370a602fa125fd0884f2b8fb916366bf = L.circleMarker(
+                [27.85, 77.02],
+                {"bubblingMouseEvents": true, "color": "red", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "red", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_1ca78bcfcb9ec78caadf0483679f5ce7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c32e6f7701ac96378ef857998193e482 = $(`<div id="html_c32e6f7701ac96378ef857998193e482" style="width: 100.0%; height: 100.0%;"><b>nuh-south</b><br>Status: Critical Loss (Mining/Degradation)<br>Forest Loss Index: -0.409</div>`)[0];
+                popup_1ca78bcfcb9ec78caadf0483679f5ce7.setContent(html_c32e6f7701ac96378ef857998193e482);
+            
+        
+
+        circle_marker_370a602fa125fd0884f2b8fb916366bf.bindPopup(popup_1ca78bcfcb9ec78caadf0483679f5ce7)
+        ;
+
+        
+    
+    
+            var circle_marker_319618687a8e57472a31c1cad5dcbbd7 = L.circleMarker(
+                [28.3412, 77.2285],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_98706131adb46efa692ae4ad25356e28 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b8e157937ad903f60bd0babfbb3025b = $(`<div id="html_8b8e157937ad903f60bd0babfbb3025b" style="width: 100.0%; height: 100.0%;"><b>mining-pali</b><br>Status: Stable Forest<br>Forest Loss Index: -0.031</div>`)[0];
+                popup_98706131adb46efa692ae4ad25356e28.setContent(html_8b8e157937ad903f60bd0babfbb3025b);
+            
+        
+
+        circle_marker_319618687a8e57472a31c1cad5dcbbd7.bindPopup(popup_98706131adb46efa692ae4ad25356e28)
+        ;
+
+        
+    
+    
+            var circle_marker_086d90e0be1698848a07ec26f85fe039 = L.circleMarker(
+                [27.915, 77.0421],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_6c6d72b6cb1cb95a4c33bed4119aca06 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_89b3110773d40ac0a92ef63726805827 = $(`<div id="html_89b3110773d40ac0a92ef63726805827" style="width: 100.0%; height: 100.0%;"><b>mining-mewat</b><br>Status: Stable Forest<br>Forest Loss Index: -0.053</div>`)[0];
+                popup_6c6d72b6cb1cb95a4c33bed4119aca06.setContent(html_89b3110773d40ac0a92ef63726805827);
+            
+        
+
+        circle_marker_086d90e0be1698848a07ec26f85fe039.bindPopup(popup_6c6d72b6cb1cb95a4c33bed4119aca06)
+        ;
+
+        
+    
+    
+            var circle_marker_b84ed7d4c1d0069d9ecebb367a5c62b9 = L.circleMarker(
+                [28.412, 77.285],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_dc307db79bbd27ae800b1a388453dd52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f15493185d81c2b136eefe9114d1d0fc = $(`<div id="html_f15493185d81c2b136eefe9114d1d0fc" style="width: 100.0%; height: 100.0%;"><b>mining-farid</b><br>Status: Stable Forest<br>Forest Loss Index: -0.031</div>`)[0];
+                popup_dc307db79bbd27ae800b1a388453dd52.setContent(html_f15493185d81c2b136eefe9114d1d0fc);
+            
+        
+
+        circle_marker_b84ed7d4c1d0069d9ecebb367a5c62b9.bindPopup(popup_dc307db79bbd27ae800b1a388453dd52)
+        ;
+
+        
+    
+    
+            var circle_marker_0a67e5ce47db4be5d1782dd5607d283c = L.circleMarker(
+                [28.0, 75.78],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_4bc8660588e238bc72f5ed099423c683 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8b6a9ce5ea36a7466c020567a6f4199 = $(`<div id="html_b8b6a9ce5ea36a7466c020567a6f4199" style="width: 100.0%; height: 100.0%;"><b>degradation-khetri</b><br>Status: Moderate Degradation<br>Forest Loss Index: -0.195</div>`)[0];
+                popup_4bc8660588e238bc72f5ed099423c683.setContent(html_b8b6a9ce5ea36a7466c020567a6f4199);
+            
+        
+
+        circle_marker_0a67e5ce47db4be5d1782dd5607d283c.bindPopup(popup_4bc8660588e238bc72f5ed099423c683)
+        ;
+
+        
+    
+    
+            var circle_marker_35bcf535f15dedf0d7161ecee07c394b = L.circleMarker(
+                [26.88, 74.72],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_8790374b7a02d4d4fdaa8b5c49b0c12f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d00c62bd082e4be686496e9ee66f2bb = $(`<div id="html_7d00c62bd082e4be686496e9ee66f2bb" style="width: 100.0%; height: 100.0%;"><b>degradation-makrana</b><br>Status: Stable Forest<br>Forest Loss Index: -0.031</div>`)[0];
+                popup_8790374b7a02d4d4fdaa8b5c49b0c12f.setContent(html_7d00c62bd082e4be686496e9ee66f2bb);
+            
+        
+
+        circle_marker_35bcf535f15dedf0d7161ecee07c394b.bindPopup(popup_8790374b7a02d4d4fdaa8b5c49b0c12f)
+        ;
+
+        
+    
+    
+            var circle_marker_57af8fa7e88b826cc3d4cc0f00ab4790 = L.circleMarker(
+                [26.45, 74.63],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_28a31dfec0c55d0d6762799f2e6f6df2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_eddd4a6d03aaa4c95d68793afe752330 = $(`<div id="html_eddd4a6d03aaa4c95d68793afe752330" style="width: 100.0%; height: 100.0%;"><b>desert-gap-ajmer</b><br>Status: Stable Forest<br>Forest Loss Index: -0.031</div>`)[0];
+                popup_28a31dfec0c55d0d6762799f2e6f6df2.setContent(html_eddd4a6d03aaa4c95d68793afe752330);
+            
+        
+
+        circle_marker_57af8fa7e88b826cc3d4cc0f00ab4790.bindPopup(popup_28a31dfec0c55d0d6762799f2e6f6df2)
+        ;
+
+        
+    
+    
+            var circle_marker_a65447d19f1d1e2e0161686e1ee781a0 = L.circleMarker(
+                [25.35, 74.64],
+                {"bubblingMouseEvents": true, "color": "green", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "green", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_f95be7beeb8c8f7cc781458bdd1b0fb7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d7b9cb4f74a7417b5a10982e8adfbb7a = $(`<div id="html_d7b9cb4f74a7417b5a10982e8adfbb7a" style="width: 100.0%; height: 100.0%;"><b>degradation-bhilwara</b><br>Status: Stable Forest<br>Forest Loss Index: -0.047</div>`)[0];
+                popup_f95be7beeb8c8f7cc781458bdd1b0fb7.setContent(html_d7b9cb4f74a7417b5a10982e8adfbb7a);
+            
+        
+
+        circle_marker_a65447d19f1d1e2e0161686e1ee781a0.bindPopup(popup_f95be7beeb8c8f7cc781458bdd1b0fb7)
+        ;
+
+        
+    
+    
+            var circle_marker_ec271636f7bc95cb1477502b6d98119a = L.circleMarker(
+                [24.88, 74.62],
+                {"bubblingMouseEvents": true, "color": "orange", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "orange", "fillOpacity": 0.7, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 8, "stroke": true, "weight": 3}
+            ).addTo(map_637e68cb553a95b2cee59045e5cb3ed1);
+        
+    
+        var popup_baee31caf8e27e1a14efb9475a0d5369 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8533be81ea00904b598325e7c29248a = $(`<div id="html_f8533be81ea00904b598325e7c29248a" style="width: 100.0%; height: 100.0%;"><b>degradation-chittorgarh</b><br>Status: Moderate Degradation<br>Forest Loss Index: -0.120</div>`)[0];
+                popup_baee31caf8e27e1a14efb9475a0d5369.setContent(html_f8533be81ea00904b598325e7c29248a);
+            
+        
+
+        circle_marker_ec271636f7bc95cb1477502b6d98119a.bindPopup(popup_baee31caf8e27e1a14efb9475a0d5369)
+        ;
+
+        
+    
+</script>
+</html>

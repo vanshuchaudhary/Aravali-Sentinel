@@ -1,0 +1,33 @@
+# --- Virtual Environment ---
+aravali/
+Lib/
+Scripts/
+Include/
+pyvenv.cfg
+env/
+venv/
+
+# --- Python Caches ---
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# --- Large Model Files ---
+*.h5
+*.keras
+*.pkl
+
+# --- Private Credentials ---
+credentials.json
+.env
+
+# --- DATA FOLDERS (Added to hide your pics) ---
+data/
+images/
+training_data/
+*.jpg
+*.png
+*.tif
+# Ignore NumPy data patches
+dataset/
+*.npy
